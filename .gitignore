@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE files
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Development / unnecessary files
+*.docx
+*.jpg
+*.png
+*.xlsx
+*.csv
+
+# Ignore old app
+basicapp.py
