@@ -74,12 +74,7 @@ st.markdown("""
 # ==================================================
 @st.cache_resource
 def load_nlp():
-    try:
-        return spacy.load("en_core_web_sm")
-    except:
-        from spacy.cli import download
-        download("en_core_web_sm")
-        return spacy.load("en_core_web_sm")
+    return spacy.load("en_core_web_sm")
 
 nlp = load_nlp()
 
